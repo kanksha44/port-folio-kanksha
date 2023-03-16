@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- link style sheet -->
+    <link rel="stylesheet" href="style.css">
+    <!-- link bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!-- Google font -->
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet"> -->
+    <!-- font awsome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>My Portfolio</title>
+</head>
+
+<body>
+    <div class="main">
+        <div id="homes" class="container">
+            <div class="row d-flex justify-content-between">
+                <div class="col-6 logo-a">
+                    <img src="./Images/logo.png" class="img-fluid" alt="Logo">
+                </div>
+                <div class="d-flex col-6 links-a justify-content-between">
+                    <div><a class="current" href="#homes">Home</a></div>
+                    <div><a href="#aboutme">About Me</a></div>
+                    <div><a href="#projects-work">Projects</a></div>
+                    <div><a href="#contact">Contact</a></div>
+                </div>
+
+            </div>
+        </div>
+
+        <div id="home">
+            <div class="home1">
+                <div class="name">
+                    <div class="headlines">
+                        <span class="headline">WELCOME TO MY WEBSITE</span><br><br>
+                        <span class="text first-text">I'm a </span>
+                        <span class="text sec-text"></span>
+                    </div>
+                    <div class="btn"><a href="#contact"><button class="contact-btn">CONTACT ME</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="aboutme">
+        <div class="container">
+            <div class="row d-flex">
+                <div class="col-6 abotimg">
+                    <img class="img-fluid . max-width: 100%; height: auto;" src="./Images/4.png" alt="about me image">
+                </div>
+                <div class="col-6 abottext">
+                    <h1>About Me</h1>
+                    <h3>Front End Developer</h3>
+                    <p>A Front-End Developer with entry-level experience knowledge in web development technologies.
+                        Adept at identifying opportunities to enhance front-end design and improve the user experience.
+                        As a developer, I create user-experiences and design artwork from concept to completion.</p>
+                    <div class="aboticons">
+                        <a href=""><i class="fa-brands fa-2xl fa-html5"></i></a>
+                        <a href=""><i class="fa-brands fa-2xl fa-css3-alt"></i></a>
+                        <a href=""><i class="fa-brands fa-2xl fa-square-js"></i></a>
+                        <a href=""><i class="fa-brands fa-2xl fa-bootstrap"></i></a>
+                        <a href=""><i class="fa-brands fa-2xl fa-react"></i></a>
+                        <a href=""><i class="fa-brands fa-2xl fa-node"></i></a>
+                        <a href=""><i class="fa-brands fa-2xl fa-mdb"></i></a>
+                    </div>
+                    <div class="abotbutns">
+                        <a href="#contact"><button type="button">Hire Me</button></a>
+                        <a href="./pdf/Aakanksha Gaikwad - Resume.pdf"><button type="button">Download
+                                Resume</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="projects-work">
+        <div class="proj-text">
+            <h1>Projects</h1>
+        </div>
+        <section class="container">
+            <section class="main-card1-box">
+                <div class="projects">
+                    <div class="card1">
+                        <img src="./Images/projeimgs/covid .png" class="card1-img" alt="">
+                        <div class="card1-body">
+                            <h1 class="card1-title">Web Scraper</h1>
+                            <p class=" card1-sub-title">Node & Cheerio </p>
+                            <p class="card1-info"> I have made webscraper in which we can extract the live covid
+                                statistics
+                                from worldometer.
+                            </p>
+
+                            <div class="card1-button">
+                                <button class="card1-btn"><a
+                                        href="https://github.com/kanksha44/covidwebscraper">Link</a></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="projects">
+                    <div class="card1">
+                        <img src="./Images/projeimgs/resto app.png" class="card1-img" alt="">
+                        <div class="card1-body">
+                            <h1 class="card1-title">RESTAURANT</h1>
+                            <p class=" card1-sub-title">React Javascript</p>
+                            <p class="card1-info"> I have made restaurant page in which we can select the menu as
+                                per
+                                time &
+                                availability</p>
+
+                            <div class="card1-button">
+                                <button class="card1-btn"><a
+                                        href="https://react-rest-o-rant.netlify.app/">Link</a></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="projects">
+                    <div class="card1">
+                        <img src="./Images/projeimgs/social.jpg" class="card1-img" alt="">
+                        <div class="card1-body">
+                            <h1 class="card1-title">Social Backend</h1>
+                            <p class=" card1-sub-title">Node & MongoDB</p>
+                            <p class="card1-info"> I have made Social api in which User can create post, like
+                                dislike
+                                delete
+                                post, follow unfollow users.</p>
+
+                            <div class="card1-button">
+                                <button class="card1-btn"><a
+                                        href="https://github.com/kanksha44/Social-backend/">Link</a></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="projects">
+                    <div class="card1">
+                        <img src="./Images/projeimgs/tindog.png" class="card1-img" alt="">
+                        <div class="card1-body">
+                            <h1 class="card1-title">Tindog</h1>
+                            <p class=" card1-sub-title">HTML, CSS, Javascript</p>
+                            <p class="card1-info"> In this website I have used navbar,carousel, card, footer.</p>
+
+                            <div class="card1-button">
+                                <button class="card1-btn"><a
+                                        href="https://app.netlify.com/sites/tindog-cute-app/">Link</a></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="projects">
+                    <div class="card1">
+                        <img src="./Images/projeimgs/bestdadjokes.png" class="card1-img" alt="">
+                        <div class="card1-body">
+                            <h1 class="card1-title">BestDadJokes</h1>
+                            <p class=" card1-sub-title">HTML, CSS, Javascript</p>
+                            <p class="card1-info"> I have used javascript for getting data from website and show it
+                                when
+                                press button.</p>
+
+                            <div class="card1-button">
+                                <button class="card1-btn"><a href="https://bestdad-jokes.netlify.app/">Link</a></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+    </div>
+
+    <div id="contact">
+        <!-- Contact Start -->
+        <div class="contact wow fadeInUp" data-wow-delay="0.1s" id="contact">
+            <div class="container-fluid">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-md-6 sociallink">
+                            <h1>Lets get in touch</h1>
+                            <p>Are you a customer who needs web developement? Thats what I do exactly. <br>
+                                Thank you for showing interest in my Portfolio.
+                                Please use this form to contact me. I will get back to you as soon as I can.
+
+                                I would love to hear from you.
+                            </p>
+                            <h3><i class="fa-solid fa-house"></i>Thane, Maharashtra
+                            </h3>
+                            <h3><i class="fa-solid fa-envelope"></i>kanksha44@gmail.com</h3>
+                            <h3><i class="fa-solid fa-phone"></i>+91 7678027610</h3>
+                            <h2>Connect with me:</h2>
+                            <div class="socal-icns">
+                                <a href="https://www.instagram.com/kanksha4496/"><i
+                                        class="fa-brands fa-2xl fa-instagram"></i></a>
+                                <a href="https://github.com/kanksha44"><i class="fa-brands fa-2xl fa-github"></i></a>
+                                <a href="https://www.linkedin.com/in/aakanksha-gaikwad/"><i
+                                        class="fa-brands fa-2xl fa-linkedin-in"></i></a>
+                            </div>
+
+                        </div>
+                        <div class="col-md-6 contactfo-rm">
+                            <div class="contact-form">
+                                <div id="success"></div>
+                                <form action="https://formspree.io/f/mzbqvwwa" method="POST" name="sentMessage"
+                                    id="contactForm" novalidate="novalidate">
+                                    <div class="control-group">
+                                        <label for="username"></label>
+                                        <input type="text" class="form-control" id="name" placeholder="Your Name"
+                                            required="required" autocomplete="off"
+                                            data-validation-required-message="Please enter your name" />
+                                        <p class="help-block"></p>
+                                    </div>
+                                    <div class="control-group">
+                                        <label for="email"></label>
+                                        <input type="email" class="form-control" id="email" placeholder="Your Email"
+                                            required="required"
+                                            data-validation-required-message="Please enter your email"
+                                            autocomplete="off" />
+                                        <p class="help-block"></p>
+                                    </div>
+                                    <div class="control-group">
+                                        <label for="subject"></label>
+                                        <input type="text" class="form-control" id="subject" placeholder="Subject"
+                                            required="required"
+                                            data-validation-required-message="Please enter a subject"
+                                            autocomplete="off" />
+                                        <p class="help-block"></p>
+                                    </div>
+                                    <div class="control-group">
+                                        <label for="textarea"></label>
+                                        <textarea class="form-control" id="message" placeholder="Message"
+                                            required="required"
+                                            data-validation-required-message="Please enter your message"
+                                            autocomplete="off"></textarea>
+                                        <p class="help-block"></p>
+                                    </div>
+                                    <div>
+                                        <input type="submit" name="submit" id="sendMessageButton" class="btn"
+                                            value="Send message" />
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Contact End -->
+    </div>
+
+
+
+
+
+    <!-- Contact Javascript File -->
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script>
+    <!-- bootstrap cdn Javascript File -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/typed.js@2.0.132/dist/typed.umd.js"></script>
+
+    <!-- <script>
+        const text = document.querySelector(".sec-text");
+
+        const textlaod = () => {
+            setTimeout(() => {
+                text.textContent = "Aakanksha Gaikwad"
+            }, 0);
+            setTimeout(() => {
+                text.textContent = "Web Devloper"
+            }, 4000)
+            setTimeout(() => {
+                text.textContent = "Front End Developer"
+            }, 8000)
+            setTimeout(() => {
+                text.textContent = "Backend Developer"
+            }, 12000)
+        }
+        textlaod();
+        setInterval(textlaod, 16000);
+    </script> -->
+
+    <script>
+        var typingEffect = new Typed(".sec-text", {
+            strings: ["Aakanksha Gaikwad", "Front End Developer", "Backend Develper"],
+            loop: true,
+            typeSpeed: 100,
+            backSpeed: 80,
+            startDelay: 1000,
+            backDelay: 1500,
+            showCursor: false
+        })
+
+        console.log(typingEffect, "sdfs");
+    </script>
+
+</body>
+
+</html>
